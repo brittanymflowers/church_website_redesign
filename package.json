@@ -1,19 +1,30 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is my portfolio project through Nucamp - I am recreating a church website",
+  "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brittanymflowers/nucamp-portfolio-project.git"
   },
-  "author": "",
+  "author": "Brittany Megan Flowers",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/brittanymflowers/nucamp-portfolio-project/issues"
   },
-  "homepage": "https://github.com/brittanymflowers/nucamp-portfolio-project#readme"
+  "homepage": "https://github.com/brittanymflowers/nucamp-portfolio-project#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
