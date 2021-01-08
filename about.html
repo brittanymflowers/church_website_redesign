@@ -19,18 +19,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/cross.png" class="img-fluid"/></a>
-                </div>
-                <div class="col align-self-center text-nowrap">
-                    <h1>Woodmen Road</h1>
-                    <h2>Baptist Church</h2>  
+                    <a href="index.html"><img src="img/plogo6.png" /></a>
                 </div>
             </div>
         </div>
     </header>
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="img/cross.png" height="30" width="30"/></a>
+            <a class="navbar-brand d-block d-md-none" href="index.html"><img src="img/cross.png" height="30" width="30"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -150,22 +146,20 @@
                                                     </form>
                                                 </div>
                                             </div>
-                                            <!--Check all this (clean it up below)-->
                                             <div id="paypal" class="tab-pane fade pt-3">
                                                 <h6 class="pb-2">Select your gift type</h6>
                                                 <div class="form-group"> 
-                                                    <label class="radio-inline"> <input type="radio" name="gtype" checked><i class="fa fa-envelope mx-1"></i>Tithe</label> 
-                                                    <label class="radio-inline"><input type="radio" name="gtype" class="ml-5"><i class="fa fa-gift mx-1"></i>Gift</label>
-                                                    <label class="radio-inline"><input type="radio" name="gtype" class="ml-5"><i class="fa fa-usd mx-1"></i>Other</label>
+                                                    <label class="radio-inline"> <input type="radio" name="gtype" value="tithe" checked><i class="fa fa-envelope mx-1"></i>Tithe</label> 
+                                                    <label class="radio-inline"><input type="radio" name="gtype" value="gift" class="ml-5"><i class="fa fa-gift mx-1"></i>Gift</label>
+                                                    <label class="radio-inline"><input type="radio" name="gtype" value="other" class="ml-5"><i class="fa fa-usd mx-1"></i>Other</label>
                                                 </div>
-
                                                 <h6 class="pb-2">Select your paypal account type</h6>
                                                 <div class="form-group"> 
-                                                    <label class="radio-inline"> <input type="radio" name="paypalOption" checked> Domestic </label> 
-                                                    <label class="radio-inline"><input type="radio" name="paypalOption" class="ml-5">International </label>
+                                                    <label class="radio-inline"><input type="radio" name="paypalOption" value="domestic" checked> Domestic</label> 
+                                                    <label class="radio-inline"><input type="radio" name="paypalOption" value="international" class="ml-5"> International</label>
                                                 </div>
-                                                <p> <button type="button" class="btn btn-primary "><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button> </p>
-                                                <p class="text-muted"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order. </p>
+                                                <p><button type="button" class="btn btn-primary "><i class="fa fa-paypal mr-2"></i> Paypal Login </button></p>
+                                                <p class="text-muted"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your payment. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -188,11 +182,11 @@
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <img class="img-fluid" src="img/building.jpg"/>
+                    <img id="building" class="img-fluid" src="img/building.jpg"/>
                 </div>
                 <div class="col-12 col-lg-6 align-self-center mt-3 mt-lg-0">
                     <p>Woodmen Road Church is a conservative and fundamental church located at the southeastern corner of Black Forest and Woodmen Road. Our church is easily accessible from anywhere in the greater Colorado Springs, Black Forest, or Falcon areas. Our church facilities have recently been beautifully renovated and landscaped.<br/><br/>
-                        We are a self- governing body of believers. We believe that the head of the church is the Lord Jesus Christ. The Bible is our sole authority for faith and practice. It is our desire to be a truly "New Testament" church, taking the gospel "around the corner, and around the world." Without apology, we are a traditional, conservative, and fundamental church. We by design sing the "old time hymns of the faith" and stand firm on the "old time preaching" of the Word of God!<br/><br/>
+                        We are a self-governing body of believers. We believe that the head of the church is the Lord Jesus Christ. The Bible is our sole authority for faith and practice. It is our desire to be a truly "New Testament" church, taking the gospel "around the corner, and around the world." Without apology, we are a traditional, conservative, and fundamental church. We by design sing the "old time hymns of the faith" and stand firm on the "old time preaching" of the Word of God!<br/><br/>
                         At Woodmen Road, we have one message - the message of the Lord Jesus Christ, and one ministry - the ministry He has given us to go into all the world and preach the gospel to every creature. We believe this can be obtained through fervent soul-winning, preaching, bus ministry, Sunday school, youth ministry, men and women's ministry, missions at home and around the world, and any other Christ-honoring method.
                     </p>                        
                 </div>
@@ -209,22 +203,23 @@
     <footer class="site-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col d-none d-sm-block">
+                <div class="col text-center">
                     <ul class="list-unstyled ml-5">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="connect.html">Connect</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Connect</a></li>
                         <li><a href="sermons.html">Sermons</a></li>
                         <li><a href="contactus.html">ContactUs</a></li>
-                    </ul>                
+                    </ul>
                 </div>
-                <div class="col-12 col-sm d-none d-sm-block text-nowrap align-self-center">
+                <div class="col d-none d-md-block text-nowrap align-self-center text-center">
                     <p>
+                        Woodmen Road Baptist Church<br/>
                         7465 Horseshoe Road <br />
                         Colorado Springs, CO 80923
                     </p>
                 </div>
-                <div id="footerButtons" class="col col-sm-2 text-nowrap mr-2">
+                <div id="footerButtons" class="col text-nowrap text-center">
                     <a role="button" class="btn btn-link" href="tel:+17196417929"><i class="fa fa-lg fa-phone-square"></i> 1-719-641-7929</a><br />
                     <a role="button" class="btn btn-link" href="mailto:dguin@centurylink.net"><i class="fa fa-lg fa-envelope-square"></i> dguin@centurylink.net</a><br />
                     <a role="button" class="btn btn-link" href="http://instagram.com/"><i class="fa fa-lg fa-instagram"></i></a>
@@ -232,8 +227,9 @@
                     <a role="button" class="btn btn-link" href="http://youtube.com/"><i class="fa fa-lg fa-youtube-square"></i></a>
                 </div>
             </div>
+        </div>
     </footer>
-
+    
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

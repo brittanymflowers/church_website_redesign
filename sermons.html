@@ -19,18 +19,14 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/cross.png" class="img-fluid"/></a>
-                </div>
-                <div class="col align-self-center text-nowrap">
-                    <h1>Woodmen Road</h1>
-                    <h2>Baptist Church</h2>  
+                    <a href="index.html"><img src="img/plogo6.png" /></a>
                 </div>
             </div>
         </div>
     </header>
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="img/cross.png" height="30" width="30"/></a>
+            <a class="navbar-brand d-block d-md-none" href="index.html"><img src="img/cross.png" height="30" width="30"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -41,7 +37,7 @@
                     <li class="nav-item mx-3"><a class="nav-link" href ="connect.html">Connect</a></li>
                     <li class="nav-item mx-3"><a class="nav-link" href ="#">Sermons</a></li>
                     <li class="nav-item mx-3"><a class="nav-link text-nowrap" href ="contactus.html">Contact Us</a></li>
-                </ul>  
+                </ul>                
                 <span class="navbar-text ml-auto">
                     <a type="button" class="btn btn-success btn-sm text-nowrap" data-toggle="modal" data-target="#giveModal">
                         <i class="fa fa-usd"></i> Give Online
@@ -149,22 +145,20 @@
                                                 </form>
                                             </div>
                                         </div>
-                                        <!--Check all this (clean it up below)-->
                                         <div id="paypal" class="tab-pane fade pt-3">
                                             <h6 class="pb-2">Select your gift type</h6>
                                             <div class="form-group"> 
-                                                <label class="radio-inline"> <input type="radio" name="gtype" checked><i class="fa fa-envelope mx-1"></i>Tithe</label> 
-                                                <label class="radio-inline"><input type="radio" name="gtype" class="ml-5"><i class="fa fa-gift mx-1"></i>Gift</label>
-                                                <label class="radio-inline"><input type="radio" name="gtype" class="ml-5"><i class="fa fa-usd mx-1"></i>Other</label>
+                                                <label class="radio-inline"> <input type="radio" name="gtype" value="tithe" checked><i class="fa fa-envelope mx-1"></i>Tithe</label> 
+                                                <label class="radio-inline"><input type="radio" name="gtype" value="gift" class="ml-5"><i class="fa fa-gift mx-1"></i>Gift</label>
+                                                <label class="radio-inline"><input type="radio" name="gtype" value="other" class="ml-5"><i class="fa fa-usd mx-1"></i>Other</label>
                                             </div>
-
                                             <h6 class="pb-2">Select your paypal account type</h6>
                                             <div class="form-group"> 
-                                                <label class="radio-inline"> <input type="radio" name="paypalOption" checked> Domestic </label> 
-                                                <label class="radio-inline"><input type="radio" name="paypalOption" class="ml-5">International </label>
+                                                <label class="radio-inline"><input type="radio" name="paypalOption" value="domestic" checked> Domestic</label> 
+                                                <label class="radio-inline"><input type="radio" name="paypalOption" value="international" class="ml-5"> International</label>
                                             </div>
-                                            <p> <button type="button" class="btn btn-primary "><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button> </p>
-                                            <p class="text-muted"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your order. </p>
+                                            <p><button type="button" class="btn btn-primary "><i class="fa fa-paypal mr-2"></i> Paypal Login </button></p>
+                                            <p class="text-muted"> Note: After clicking on the button, you will be directed to a secure gateway for payment. After completing the payment process, you will be redirected back to the website to view details of your payment. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -177,40 +171,138 @@
     </div>
     <div class="container-fluid mb-4">
         <div class="row d-flex justify-content-center">
-            <h1 class="mb-0">Get Connected</h1>
+            <h1 class="mb-0">Sermons</h1>
         </div>
         <div class="row">
             <hr class="titleHr">
         </div>
+<!--Video #1-->
         <div class="row d-flex justify-content-center mb-4">
-            <h6 class="text-muted">Join us for one of our Sunday School classes</h2>
+            <h6 class="text-muted" style="margin-bottom:30px">Missed a sermon? Watch it online!</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="max-width:900px;max-height:500px" src="https://www.youtube.com/embed/CZk90baM79o" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 mx-sm-3 mt-3 mt-sm-0">
+                <h2>Tired on the Inside</h2>
+                <h5>Steven Furtick &nbsp| &nbsp<small>June 7, 2020</small></h5>
+                <hr class="d-none d-lg-block"/>
+                <h6 class="d-none d-lg-block text-muted">In “Tired On The Inside,” Pastor Steven shares from the story of the woman at the well in John 4, showing us how powerful rest can be –– if we’re looking for it in the right places. 
+                <br/><br/>
+                But what if one of the reasons we’re tired all the time is because we’ve been going to the wrong well? What if we’ve been running to sources of stress instead of God’s source of rest?
+                <br/><br/>
+                Being weary doesn’t mean we’re weak. Maybe it just means we’ve been “filling up” in the wrong places. Maybe we’re tired because we’ve been pushing against what God is trying to call us into.
+                <br/><br/>
+                He said, “Come to me, all you who are weary and burdened, and I will give you rest” (Matthew 11 verse 28). Are you ready for true rest?
+                </h6>    
+            </div>
+        </div>
+        <div class="row">
+            <hr class="titleHr my-5">
+        </div>
+<!--Video #2-->
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="max-width:900px;max-height:500px" src="https://www.youtube.com/embed/JSjK_TK1Y8s" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 mx-sm-3 mt-3 mt-sm-0">
+                <h2>I Didn't See That Coming!</h2>
+                <h5>Dharius Daniels &nbsp| &nbsp<small>July 12, 2020</small></h5>
+                <hr class="d-none d-lg-block"/>
+                <h6 class="d-none d-lg-block text-muted">We never know how God is going to move. In “I Didn’t See That Coming!” Pastor Dharius Daniels of Change Church teaches us that, if we want to be used by God, we need to be willing to be disrupted.</h6>
+            </div>
+        </div>
+        <div class="row">
+            <hr class="titleHr my-5">
+        </div>
+<!--Video #3-->
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="max-width:900px;max-height:500px" src="https://www.youtube.com/embed/86ASssMSDr4" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 mx-sm-3 mt-3 mt-sm-0">
+                <h2>Protected by God's Presence</h2>
+                <h5>Steven Furtick &nbsp| &nbsp<small>Dec 31, 2020</small></h5>
+                <hr class="d-none d-lg-block"/>
+                <h6 class="d-none d-lg-block text-muted">When what you’re facing seems too big to handle, God will see you through it.
+                    <br/><br/>
+                    In “Protected By God's Presence,” Pastor Steven Furtick of Elevation Church reminds us that the proof of the presence of God is not the absence of problems, it’s in the middle of them.
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <hr class="titleHr my-5">
+        </div>
+<!--Video #4-->
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="max-width:900px;max-height:500px" src="https://www.youtube.com/embed/1ZwtOL-jUOA" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 mx-sm-3 mt-3 mt-sm-0">
+                <h2>I Woke Up Like This</h2>
+                <h5>Levi Lusko &nbsp| &nbsp<small>November 29, 2020</small></h5>
+                <hr class="d-none d-lg-block"/>
+                <h6 class="d-none d-lg-block text-muted">God’s favor isn’t limited by our failures.
+                    <br/><br/>
+                    In “I Woke Up Like This,” we hear a word from Pastor Levi Lusko, the lead pastor of Fresh Life Church. In his message, Pastor Levi shows us how God’s favor often flows through the connections you make and the steps of faith you’re willing to take.
+                </h6>
+            </div>
+        </div>
+        <div class="row">
+            <hr class="titleHr my-5">
+        </div>
+<!--Video #5-->
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" style="max-width:900px;max-height:500px" src="https://www.youtube.com/embed/KnbLTTU5sDU" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 mx-sm-3 mt-3 mt-sm-0">
+                <h2>Favor over Fear</h2>
+                <h5>Steven Furtick &nbsp| &nbsp<small>December 13, 2020</small></h5>
+                <hr class="d-none d-lg-block"/>
+                <h6 class="d-none d-lg-block text-muted">
+                    In a year that has been overrun with fear, what if we focused on God’s favor instead? Pastor Steven Furtick shares in “Favor Over Fear” that you get to choose how you define this year. Are you only going to focus on the disappointments or can you recognize how God’s favor has been with you through it all?
+                </h6>
+            </div>
         </div>
     </div>
+    <!--FOOTER-->
     <footer class="site-footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col d-none d-sm-block">
+                <div class="col text-center">
                     <ul class="list-unstyled ml-5">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="connect.html">Connect</a></li>
-                        <li><a href="#">Sermons</a></li>
+                        <li><a href="#">Connect</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
                         <li><a href="contactus.html">ContactUs</a></li>
-                    </ul>                
+                    </ul>
                 </div>
-                <div class="col-12 col-sm d-none d-sm-block text-nowrap align-self-center">
+                <div class="col d-none d-md-block text-nowrap align-self-center text-center">
                     <p>
+                        Woodmen Road Baptist Church<br/>
                         7465 Horseshoe Road <br />
                         Colorado Springs, CO 80923
                     </p>
                 </div>
-                <div id="footerButtons" class="col col-sm-2 text-nowrap mr-2">
+                <div id="footerButtons" class="col text-nowrap text-center">
                     <a role="button" class="btn btn-link" href="tel:+17196417929"><i class="fa fa-lg fa-phone-square"></i> 1-719-641-7929</a><br />
                     <a role="button" class="btn btn-link" href="mailto:dguin@centurylink.net"><i class="fa fa-lg fa-envelope-square"></i> dguin@centurylink.net</a><br />
                     <a role="button" class="btn btn-link" href="http://instagram.com/"><i class="fa fa-lg fa-instagram"></i></a>
                     <a role="button" class="btn btn-link" href="http://facebook.com/"><i class="fa fa-lg fa-facebook-square"></i></a>
                     <a role="button" class="btn btn-link" href="http://youtube.com/"><i class="fa fa-lg fa-youtube-square"></i></a>
-
                 </div>
             </div>
         </div>
