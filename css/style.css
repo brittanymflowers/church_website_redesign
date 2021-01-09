@@ -137,7 +137,6 @@ iframe, #building {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-left: 0px;
 }
 
 .contact {
@@ -145,7 +144,7 @@ iframe, #building {
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 
